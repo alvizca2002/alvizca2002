@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../tablas"
+		},
+		{
+			"path": "../web de grid redondeado"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "WEB DE ALBERTO"
+	}
+}

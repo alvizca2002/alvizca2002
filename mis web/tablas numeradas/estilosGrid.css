@@ -1,0 +1,124 @@
+.contenedor{
+    display: grid;
+    gap: 5px 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 80px 1fr 1fr 80px;
+    font-family: Tahoma, sans-serif;
+   
+    
+
+}
+.cabezera{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    background-color: bisque;
+    text-shadow: 0.5em 0.5em 0.5em black;
+    color: rgb(158, 190, 238);
+    height: 80px;
+    
+}
+#imagen{
+    grid-area: unset;
+    background-image: url(yo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: auto;
+}
+.cuerpo{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: bisque;
+    
+}
+.cuerpo:hover{
+    background-color: burlywood;
+    color:aliceblue;
+    transition: 2s;
+}
+.cuerpo{
+    background-color: bisque;
+    transition: 4s;
+}
+.cuerpo2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    text-align: center;
+    background-color: bisque;
+
+}
+img:hover{
+    width: 200px;
+    border: 10px;
+    border-radius: 10px;
+    transition: 2s;
+
+}
+img{
+    width: 80px;
+    transition: 3s;
+}
+
+a{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+a:hover{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    background-color: black;
+    color:aliceblue;
+    transition: 2s;
+}
+a{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    transition: 4s;
+}
+.aside{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    text-align: center;
+    text-shadow: 2px;
+    background-color: bisque;
+    color: rgb(241, 136, 7);
+    
+
+}
+.aside:hover{
+    color:red;
+    background-color: burlywood;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    transition: 2s;
+}
+.aside{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    text-align: center;
+    background-color: bisque;
+    color: rgb(241, 136, 7);
+    transition: 4s;
+    
+
+}
+.nuevo{
+    background-attachment: fixed;
+    background-color: darkblue;
+    color: aliceblue;
+}
+
+.footer{
+    background-color: bisque;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}

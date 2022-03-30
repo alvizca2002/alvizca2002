@@ -1,0 +1,84 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.caja1 {
+    background-color: peachpuff;
+    color: rgb(31, 33, 37);
+    border: black solid 2px;
+    height: 80px;
+    width: 800px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.caja1:hover{
+    background-color: peru;
+}
+.cajaContenido:hover{
+    background-color: peachpuff;
+    color: rgb(31, 33, 37);
+
+}
+header, section, footer{
+    text-align: center;
+}
+
+
+a{
+    font-family: verdana;
+    background-color: rgb(31, 33, 37);
+    color: rgba(173, 199, 24, 0.562);
+    text-align: center;
+}
+a:hover { 
+   
+    border-bottom: 1px solid;
+    background: #112233;
+    color: rgb(177, 147, 147);
+    font-family: 'Courier New', Courier, monospace; 
+    height: 30px;
+}
+a:active { 
+    background-color: aquamarine;
+    color: #ffffff 
+}
+
+.cajaContenido{
+    background-color: rgb(31, 33, 37);
+    border:rgb(8, 8, 8) 1px solid;
+    color: peachpuff;
+    margin: auto;
+    text-align: center;
+    height: auto;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.contenedor {
+    display: grid;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px 10px;
+    background-color: peachpuff;
+    border-radius: 10px;
+    
+}
+
+
+@media all and (max-width: 800px){
+    .contenedor{
+        grid-template-columns: 1fr 1fr;
+        width: 500px;
+    }
+}
+@media all and (max-width: 500px){
+    .contenedor{
+        grid-template-columns: 1fr;
+    }
+}

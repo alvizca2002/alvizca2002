@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+div img{
+    height: auto;
+    width: auto;
+   max-width: 200px;
+   max-height: 200px; 
+   transition: 1s;
+}
+div img:hover{
+    max-width: 400px;
+    max-height: 400px;
+    transition: 1s;
+
+}
+.enlace{
+    height: 30px;
+    transition: 1s;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+}
+.botonAnimado:hover{
+    transition: 1s;
+    transform: margin-left 2s;
+    background-color: red;
+    color: aliceblue;
+    border-radius: 2px 2px 15px;
+
+}
+.caja{
+    width: 1000px;
+    height: 500px;
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 20% 70% 10%;
+    background-color: grey;
+    transition: 2s;
+    
+}
+
+.imagen1{
+    
+   
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding: 10px;
+    background-color: aliceblue;
+    margin: auto;
+    box-shadow: 0 20px 30px black;
+}
+.imagen2{
+    
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding: 10px;
+    background-color: aliceblue;
+    margin: auto;
+    box-shadow: 0 20px 30px black;
+}
+.imagen3{
+    
+    grid-column-start: 3;
+    grid-column-end: 4;
+    padding: 10px;
+    background-color: aliceblue;
+    margin: auto;
+    box-shadow: 0 20px 30px black;
+}
+.textoFoto1{
+    color: aliceblue;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    
+}
+.textoFoto2{
+    color: aliceblue;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.textoFoto3{
+    color: aliceblue;
+    text-align: center;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.encabezadoFotos{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: rgb(41, 38, 38);
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 1px 10px 20px whitesmoke;
+    transition: 00.5s;
+    
+}
+
+.encabezadoFotos:hover{
+    font-size: 20px;
+    background-color: rgb(126, 89, 89);
+    transition: 0.5s;
+}
+
+.nav{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    width: 1020px;
+    text-align: center;
+    background-color: grey;
+    font-size: 20px;
+    margin: 10px;
+}
+a:hover{
+    color: red;
+    text-transform: inherit;
+    transition: 0.5s;
+}
+a{
+    color: aliceblue;
+    transition: 0.5s;
+    text-decoration: none;
+}
+.parrafo{
+    display: flexbox;
+    background-color: grey;
+    color: aliceblue;
+    width: 980px;
+    margin: 10px;
+    padding: 20px;
+    text-align: justify;
+
+}
+.barraBaja{
+    display: block;
+    background-color: rgb(85, 81, 81);
+    color: aliceblue;
+    text-align: center;
+    width: 1020px;
+    margin: 10px;
+}

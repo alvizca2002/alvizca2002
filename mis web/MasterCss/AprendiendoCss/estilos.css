@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    color: blue;
+    background-color: yellowgreen;
+    height: 20px;
+}
