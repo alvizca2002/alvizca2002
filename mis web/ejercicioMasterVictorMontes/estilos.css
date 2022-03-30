@@ -3,3 +3,6 @@ body{
     padding: 0px;
     text-decoration: none;
 }
+.estiloDePutaMadre{
+    background-image: image();
+}
