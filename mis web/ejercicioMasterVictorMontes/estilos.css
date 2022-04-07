@@ -2,7 +2,43 @@ body{
     margin: 0px;
     padding: 0px;
     text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.estiloDePutaMadre{
-    background-image: image();
+#general{
+    width: 1200px;
+    margin: 0px auto;
+    border: 1px solid #ccc; 
+}
+#header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(38, 6, 202);
+    color: white;
+    text-align: center;
+    line-height: 90px;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+#menu{
+    background-color: #eee;
+}
+#menu ul li{
+    display: block;
+    float: left;
+    padding: 10px;
+    border-right: 5px solid #ccc;
+}
+#menu ul li:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+#menu ul li a{
+    display: block;
+    color: #444;
+}
+#menu ul li:hover a{
+
+    color: white;
 }
