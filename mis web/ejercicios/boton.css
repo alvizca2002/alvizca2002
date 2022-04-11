@@ -1,3 +1,6 @@
+body{
+    background-color: black;
+}
 .contenedor{
     text-align: center;
     background-image: url(yo.jpg);
@@ -6,8 +9,10 @@
     width: 300px;
     max-width: 300px;
     height: 300px;
-    border: 1px solid gray;
-    border-radius: 50px;   
+    border: 10px solid gray;
+    border-radius: 50px; 
+    border-color: rgb(220, 162, 88);  
+    box-shadow: 3px 3px 50px 10px red;   
 }
 .boton{
     padding-top: 100px;
@@ -22,12 +27,24 @@
 button{
     color: rgb(43, 42, 42);
     background-color: rgb(162, 162, 164);
+
 }
 .boton p{ 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: azure;
     font-size: 30px;
+    text-shadow: rgb(162, 162, 164);
 }
-p{
+.otro p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 200px;
+    background-color: rgb(220, 162, 88);
+    width: 300px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    text-shadow: red;
+}
+.sombraRoja{
+    text-shadow: red;
 }
