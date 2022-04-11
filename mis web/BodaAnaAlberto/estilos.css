@@ -4,5 +4,6 @@
 
 }
 #contenedorPrincipal{
+    border: 1px solid gray;
     background-image: url();
 }
