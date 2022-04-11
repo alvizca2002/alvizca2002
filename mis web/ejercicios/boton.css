@@ -1,0 +1,33 @@
+.contenedor{
+    text-align: center;
+    background-image: url(yo.jpg);
+    background-size: 500px;
+    margin: 100px 200px;
+    width: 300px;
+    max-width: 300px;
+    height: 300px;
+    border: 1px solid gray;
+    border-radius: 50px;   
+}
+.boton{
+    padding-top: 100px;
+    padding-bottom: -10px;
+}
+.solucion p{
+    visibility: hidden;
+}
+.boton:hover p{
+    visibility: visible;
+}
+button{
+    color: rgb(43, 42, 42);
+    background-color: rgb(162, 162, 164);
+}
+.boton p{ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: azure;
+    font-size: 30px;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
