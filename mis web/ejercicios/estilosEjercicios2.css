@@ -10,6 +10,9 @@
     height: 324px;
 
 }
+img{
+    position: absolute;
+}
 #contenedorsuperior{
     width: 365px;
     height: 274px;

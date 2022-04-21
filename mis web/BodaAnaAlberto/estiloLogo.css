@@ -3,17 +3,25 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 50px;
-}
+    }
 .contenedor{
+    margin: 10px;
     text-align: center;
+    background-image: url(IMG_0132.jpg);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.fondo{
+    
 }
 h1{
     margin: 200px 0;
     display: block;
     display: inline-block;
     position: relative;
-
+    font-size: 50px;
+    color: cornsilk;
 }
 h1::before{
     content: "";
@@ -30,7 +38,7 @@ h1::after{
     content: "";
     width: 0%;
     height: 4px; 
-    background: red;
+    background: burlywood ;
     position: absolute;
     bottom: -8%;
     left: 50%;
@@ -39,8 +47,11 @@ h1::after{
 }
 h1:hover::after{
     width: 100%;
-    
 }
 h1:hover::before{
     width: 100px;
+
+}
+h1:hover{
+    color: black;
 }

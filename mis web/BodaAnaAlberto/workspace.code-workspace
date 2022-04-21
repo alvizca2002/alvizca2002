@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../ejercicioMasterVictorMontes"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "BodaAnaAlberto"
+	}
+}

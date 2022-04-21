@@ -1,9 +1,22 @@
-*{
-    margin: 0px;
-    padding: 0px;
-
-}
 #contenedorPrincipal{
+    justify-content: center;
     border: 1px solid gray;
     background-image: url();
+    width: 650px;
+    height: 30px;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: burlywood;
+   
+}
+#contenedorPrincipal:hover{
+    color: whitesmoke;
+    background-color: black;
+    border-radius: 30px;
+    border-color: red;
+    transition: 0.5s all;
 }
