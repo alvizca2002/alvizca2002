@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+.contenedor{
+    text-align: center;
+}
+h1{
+    margin: 200px 0;
+    display: block;
+    display: inline-block;
+    position: relative;
+
+}
+h1::before{
+    content: "";
+    width: 30%;
+    height: 4px; 
+    background: red;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.8s all;
+}
+h1::after{
+    content: "";
+    width: 0%;
+    height: 4px; 
+    background: red;
+    position: absolute;
+    bottom: -8%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.8s all;
+}
+h1:hover::after{
+    width: 100%;
+    
+}
+h1:hover::before{
+    width: 100px;
+}
